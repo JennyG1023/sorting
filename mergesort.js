@@ -7,7 +7,7 @@ function split(wholeArr) {
 
 function merge(arr1, arr2) {
     var merged = [];
-   var totalLength = arr1.length + arr2.length;
+    var totalLength = arr1.length + arr2.length;
 
    while(merged.length < totalLength) {
        if(arr1[0] < arr2[0]) {
@@ -19,3 +19,6 @@ function merge(arr1, arr2) {
    return merged;
 }
 
+function mergeSort(array) {
+    
+}

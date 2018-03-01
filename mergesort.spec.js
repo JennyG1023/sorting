@@ -4,8 +4,8 @@ describe('Split Array function', function() {
     });
   });
 
-  describe('Merge function', function(){
+  describe('Merge function', function() {
     it('is able to merge two sorted arrays into one sorted array', function(){
-        expect( merge([1,3,4], [2,5,7] ).toEqual( [1,2,3,4,5,7] ));
+        expect( merge([1,3,4], [2,5,7]) ).toEqual( [1,2,3,4,5,7] );
     });
   });
